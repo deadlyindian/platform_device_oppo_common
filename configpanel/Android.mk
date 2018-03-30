@@ -23,4 +23,6 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PACKAGE_NAME := ConfigPanel
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_USE_AAPT2 := true
+
 include $(BUILD_PACKAGE)
